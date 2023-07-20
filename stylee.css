@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Lumanosimo&display=swap');
+h2 span{
+    position: relative;
+font-weight:600;
+font-family: 'Lumanosimo', cursive;
+
+color: rgba(120, 160, 11, 0.658);
+}
+h2{
+    margin: 50px !important;
+}
+h2 span::before{
+    content: "";
+    background-color:#fec260;
+    position: absolute;
+    height: 20px;
+    width: 271px;
+    left: -22px;
+    top: 20px;
+    z-index:-1;
+}
+body{
+    background-color: #ebc79f;
+}
+p{
+color:#cac712;
+width: 800px;
+margin: auto;
+border-style: dashed;}
+
+.our .part-1{
+    display: inline-block;
+}
+.our{
+    margin: 40px;
+  text-align: center;
+}
+
+.form-control:focus {
+    border-color:rgb(163, 110, 12);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(194, 145, 11, 0.25);
+}
+.sump{
+width: 100%;
+display: flex;
+align-items: center;
+}
+.btn{
+    margin: auto;
+}
